@@ -137,6 +137,49 @@ legend {
 }
 
 
+/* Estilos Responsivos */
+@media screen and (max-width: 768px) {
+    .container {
+        width: 95%; /* Reduce el ancho para aprovechar mejor el espacio */
+        padding: 20px;
+    }
+
+    .form-row {
+        flex-direction: column; /* Cambia la disposición a vertical */
+        gap: 10px; /* Reduce el espacio entre elementos */
+    }
+
+    .form-row div {
+        margin-right: 0; /* Elimina margen derecho innecesario */
+    }
+
+    input, select, textarea {
+        font-size: 16px; /* Aumenta el tamaño de fuente para mejor legibilidad */
+        padding: 12px; /* Más espacio en los campos */
+    }
+
+    .btn {
+        font-size: 18px;
+        padding: 14px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    h2 {
+        font-size: 22px; /* Reduce tamaño del título */
+    }
+
+    label {
+        font-size: 14px; /* Ajusta etiquetas para mejor lectura */
+    }
+
+    .btn {
+        font-size: 16px;
+        padding: 12px;
+    }
+}
+
+
 
 
 
